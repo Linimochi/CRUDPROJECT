@@ -1,0 +1,104 @@
+html{
+    background-color: black;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+   
+body{
+  
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    color: white;
+    font-size: 100px;
+   text-align: center;
+}
+form{
+    margin: 0 auto;
+    background-color: rgb(13, 13, 14);
+    color: white;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+input{
+    color:rgb(24, 23, 23) !important;
+}
+.btn{ 
+    background-color: rgb(24, 23, 23);
+    color: white !important;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+    padding: 90px 80px 90px 90px;
+}
+.row{background-color: black;
+   align-items: center;
+   justify-content: center;
+  margin: auto;
+}
+#termo{
+    color: rgb(30, 30, 201);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.table2{
+    margin: 0 auto;
+background-color: black !important;
+    justify-content: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+tr, td, th{
+    padding: 10px;
+   text-align: center;
+}
+th{
+    color: rgb(247, 247, 247);
+    text-shadow: 1px 1px 10px grey;
+    font-size: 20px;
+}
+tr{
+    color: grey;
+}
+.button-excluir{
+   width: 100px;
+   border-radius: 5px;
+   height: 37px;
+   border-color: red;
+   border-style: solid;
+   background-color: rgba(34, 34, 34, 0.247);
+   color: white !important;
+}
+.button-excluir:hover{
+    background-color:  red !important;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.button-editar{
+   width: 100px;
+   border-radius: 5px;
+   height: 37px;
+   border-color: rgba(255, 136, 0, 0.753);
+   border-style: solid;
+   background-color: rgba(34, 34, 34, 0.247);
+   color: white !important;
+
+}
+.button-editar:hover{
+    background-color:  rgba(255, 136, 0, 0.753);
+    transition: 0.2s;
+    font-weight: bold;
+}
